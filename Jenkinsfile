@@ -19,7 +19,9 @@ pipeline {
                     
                     // Print the branch name and commit ID
                     echo "**************************"
+                    echo "**************************"
                     echo "BUILD DETAILS"
+                    echo "**************************"
                     echo "**************************"
                     echo "Branch Name: ${branchName}"
                     echo "Commit ID: ${commitId}"
