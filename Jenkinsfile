@@ -20,6 +20,7 @@ pipeline {
                     // Print the branch name and commit ID
                     echo "**************************"
                     echo "**************************"
+                    echo "**************************"
                     echo "BUILD DETAILS"
                     echo "**************************"
                     echo "**************************"
