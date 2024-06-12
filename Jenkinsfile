@@ -18,7 +18,9 @@ pipeline {
                     def commitId = sh(script: 'git rev-parse HEAD', returnStdout: true).trim()
                     
                     // Print the branch name and commit ID
+                    echo "**************************"
                     echo "BUILD DETAILS"
+                    echo "**************************"
                     echo "Branch Name: ${branchName}"
                     echo "Commit ID: ${commitId}"
                 }
